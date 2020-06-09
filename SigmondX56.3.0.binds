@@ -399,14 +399,14 @@
 		</Secondary>
 	</TargetWingman0>
 	<TargetWingman1>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Pos_Joy_RZAxis" />
 		<Secondary Device="Keyboard" Key="Key_I">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Secondary>
 	</TargetWingman1>
 	<TargetWingman2>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Neg_Joy_RZAxis" />
 		<Secondary Device="Keyboard" Key="Key_I">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
