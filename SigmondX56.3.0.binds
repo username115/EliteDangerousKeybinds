@@ -392,7 +392,7 @@
 		</Secondary>
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
-		<Primary Device="SaitekX56Throttle" Key="Joy_21" />
+		<Primary Device="SaitekX56Throttle" Key="Joy_3" />
 		<Secondary Device="Keyboard" Key="Key_I">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
@@ -628,7 +628,7 @@
 		</Secondary>
 	</NightVisionToggle>
 	<UIFocus>
-		<Primary Device="SaitekX56Throttle" Key="Joy_3" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
