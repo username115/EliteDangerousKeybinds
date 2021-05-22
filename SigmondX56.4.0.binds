@@ -1787,7 +1787,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidStrafeRightButton>
 	<HumanoidRotateAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidRotateAxis>
@@ -1801,11 +1801,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidRotateRightButton>
 	<HumanoidPitchAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidPitchAxis>
-	<HumanoidPitchSensitivity Value="2.74849033" />
+	<HumanoidPitchSensitivity Value="1.18515766" />
 	<HumanoidPitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -1820,12 +1820,12 @@
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
 	<HumanoidWalkButton>
-		<Primary Device="Keyboard" Key="Key_LeftControl" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_28" />
 		<ToggleOn Value="1" />
 	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
-		<Primary Device="Keyboard" Key="Key_C" />
+		<Primary Device="Keyboard" Key="Key_LeftControl" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_29" />
 		<ToggleOn Value="1" />
 	</HumanoidCrouchButton>
@@ -1842,7 +1842,7 @@
 		<Secondary Device="SaitekX56Throttle" Key="Joy_4" />
 	</HumanoidSecondaryInteractButton>
 	<HumanoidItemWheelButton>
-		<Primary Device="Keyboard" Key="Key_V" />
+		<Primary Device="Keyboard" Key="Key_LeftAlt" />
 		<Secondary Device="SaitekX56Joystick" Key="Joy_4" />
 	</HumanoidItemWheelButton>
 	<HumanoidItemWheelButton_XAxis>
@@ -1851,11 +1851,11 @@
 		<Deadzone Value="0.00000000" />
 	</HumanoidItemWheelButton_XAxis>
 	<HumanoidItemWheelButton_XLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_A" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_XLeft>
 	<HumanoidItemWheelButton_XRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_XRight>
 	<HumanoidItemWheelButton_YAxis>
@@ -1864,11 +1864,11 @@
 		<Deadzone Value="0.00000000" />
 	</HumanoidItemWheelButton_YAxis>
 	<HumanoidItemWheelButton_YUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_YUp>
 	<HumanoidItemWheelButton_YDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_S" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_YDown>
 	<HumanoidItemWheel_AcceptMouseInput Value="1" />
@@ -1918,7 +1918,7 @@
 		<Secondary Device="SaitekX56Throttle" Key="Joy_31" />
 	</HumanoidSelectPreviousWeaponButton>
 	<HumanoidHideWeaponButton>
-		<Primary Device="Keyboard" Key="Key_X" />
+		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="SaitekX56Joystick" Key="Joy_POV1Up" />
 	</HumanoidHideWeaponButton>
 	<HumanoidSelectNextGrenadeTypeButton>
@@ -1930,7 +1930,7 @@
 		<Secondary Device="SaitekX56Joystick" Key="Joy_14" />
 	</HumanoidSelectPreviousGrenadeTypeButton>
 	<HumanoidToggleFlashlightButton>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_6" />
 	</HumanoidToggleFlashlightButton>
 	<HumanoidToggleNightVisionButton>
@@ -1938,7 +1938,7 @@
 		<Secondary Device="SaitekX56Throttle" Key="Joy_7" />
 	</HumanoidToggleNightVisionButton>
 	<HumanoidToggleShieldsButton>
-		<Primary Device="Keyboard" Key="Key_O" />
+		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_13" />
 	</HumanoidToggleShieldsButton>
 	<HumanoidSwitchToRechargeTool>
@@ -1954,7 +1954,7 @@
 		<Secondary Device="SaitekX56Throttle" Key="Joy_10" />
 	</HumanoidSwitchToSuitTool>
 	<HumanoidToggleToolModeButton>
-		<Primary Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Keyboard" Key="Key_R" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_11" />
 	</HumanoidToggleToolModeButton>
 	<HumanoidToggleMissionHelpPanelButton>
