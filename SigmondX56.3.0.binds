@@ -15,7 +15,7 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -134,7 +134,7 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="SaitekX56Throttle" Key="Joy_XAxis" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
@@ -810,7 +810,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
@@ -823,7 +823,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
@@ -860,9 +860,9 @@
 		</Secondary>
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.01495017" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="{NoDevice}" Key="" />
@@ -878,9 +878,9 @@
 		</Secondary>
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.01661129" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -894,9 +894,9 @@
 		</Secondary>
 	</CamTranslateRight>
 	<CamTranslateZAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.01661129" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
 		<Primary Device="{NoDevice}" Key="" />
@@ -907,7 +907,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateDown>
 	<CamZoomAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
@@ -1043,7 +1043,7 @@
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -1056,7 +1056,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -1626,8 +1626,8 @@
 		</Secondary>
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
-		<Inverted Value="1" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
 	<ExplorationFSSCameraPitchIncreaseButton>
@@ -1639,7 +1639,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
