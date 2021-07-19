@@ -15,7 +15,7 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RZAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -860,9 +860,9 @@
 		</Secondary>
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.01495017" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="{NoDevice}" Key="" />
@@ -878,9 +878,9 @@
 		</Secondary>
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="SaitekX56Throttle" Key="Joy_RXAxis" />
+		<Binding Device="SaitekX56Throttle" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.01661129" />
+		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1787,7 +1787,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidStrafeRightButton>
 	<HumanoidRotateAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidRotateAxis>
@@ -1801,7 +1801,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidRotateRightButton>
 	<HumanoidPitchAxis>
-		<Binding Device="SaitekX56Joystick" Key="Joy_RYAxis" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_RXAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidPitchAxis>
@@ -1941,6 +1941,30 @@
 		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_13" />
 	</HumanoidToggleShieldsButton>
+	<HumanoidClearAuthorityLevel>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidClearAuthorityLevel>
+	<HumanoidHealthPack>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidHealthPack>
+	<HumanoidBattery>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidBattery>
+	<HumanoidSelectFragGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectFragGrenade>
+	<HumanoidSelectEMPGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectEMPGrenade>
+	<HumanoidSelectShieldGrenade>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HumanoidSelectShieldGrenade>
 	<HumanoidSwitchToRechargeTool>
 		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="SaitekX56Throttle" Key="Joy_8" />
